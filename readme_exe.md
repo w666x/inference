@@ -15,6 +15,7 @@
 - 项目是干啥的
   - Xinference是一个性能强大且功能全面的分布式推理框架。可用于大语言模型（LLM），语音识别模型，多模态模型等各种模型的推理。
   - 详细可查看 [xinference 指南](https://inference.readthedocs.io/zh-cn/latest/getting_started/using_xinference.html)
+  - 回复 【xinference】获得git地址
 
 
 
@@ -60,7 +61,7 @@ xinference terminate --model-uid "qwen25"
 xinference cal-model-mem -s 7 -q Int4 -f gptq -c 16384 -n qwen1.5-chat
 ```
 
-![xinference_front](./pics/xinference_front.png)
+![xinference_front](https://cdn.jsdelivr.net/gh/w666x/image/git/xinference_front.png)
 
 
 - 2. xinference推理引擎对比
@@ -111,7 +112,7 @@ curl -X 'POST' http://$TestIP:9999/v1/chat/completions \
 ```
 
 
-![qwen3](./pics/xinference_qwen3.png)
+![qwen3](https://cdn.jsdelivr.net/gh/w666x/image/git/xinference_qwen3.png)
 
 
 - 2. 起embedding模型
@@ -171,7 +172,7 @@ TypeError: [address=0.0.0.0:41589, pid=65] _extractNVMLErrorsAsClasses.<locals>.
     - web页面启用模型
 
 
-![vllm启用模型失败](./pics/vllm_error.png)
+![vllm启用模型失败](https://cdn.jsdelivr.net/gh/w666x/image/git/vllm_error.png)
 
 
 
