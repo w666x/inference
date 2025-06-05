@@ -2,7 +2,7 @@
 
 
 
-## inference仓库介绍
+## inference
 
 
 | git仓库 | 地址 | 主要功能 | star/fork数
@@ -13,13 +13,18 @@
 #### 功能说明
 
 - 项目是干啥的
-  - Xinference是一个性能强大且功能全面的分布式推理框架。可用于大语言模型（LLM），语音识别模型，多模态模型等各种模型的推理。
-  - 详细可查看 [xinference 指南](https://inference.readthedocs.io/zh-cn/latest/getting_started/using_xinference.html)
-  - 回复 【xinference】获得git地址
+    - Xinference是一个性能强大且功能全面的分布式推理框架。可用于大语言模型（LLM），语音识别模型，多模态模型等各种模型的推理。
+    - 详细可查看 [xinference 指南](https://inference.readthedocs.io/zh-cn/latest/getting_started/using_xinference.html)
+    - 回复 【xinference】获得git地址
 
 
 
-### xinference介绍
+#### 效果demo
+
+
+![xinference_front](https://cdn.jsdelivr.net/gh/w666x/image/git/xinference_front.png)
+
+### xinference功能介绍
 
 
 #### xinference安装
@@ -61,7 +66,7 @@ xinference terminate --model-uid "qwen25"
 xinference cal-model-mem -s 7 -q Int4 -f gptq -c 16384 -n qwen1.5-chat
 ```
 
-![xinference_front](https://cdn.jsdelivr.net/gh/w666x/image/git/xinference_front.png)
+
 
 
 - 2. xinference推理引擎对比
